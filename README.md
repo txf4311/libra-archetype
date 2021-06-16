@@ -7,7 +7,7 @@ Maven Archetype 开发
 
 说白了Archetype封装了一个项目的地基，框架师在里面集成了公司公共的开发组件和中间件，让业务开发人员更快更高效的开发业务逻辑。
 
-[阿里云脚手架]
+[阿里云脚手架]  
 [Spring 官方脚手架]
 
 ### 介绍Archetype
@@ -35,6 +35,16 @@ mvn archetype:generate
 ### Archetype开发
 [官方介绍] 
 
+使用IDEA打开项目，在Terminal执行 
+```javascript 
+mvn archetype:create-from-project
+```
+然后CD到 target/generated-sources/archetype 目录执行 mvn install，至此你就可以使用自定义的脚手架了。  
+可以使用  
+```javascript
+mvn archetype:generate -DarchetypeCatalog=local
+```
+选择自定义的脚手架，输入groupId,artifactId,version,package信息就生成了一个完整的项目。
 
 
  [阿里云脚手架]: https://start.aliyun.com/bootstrap.html
