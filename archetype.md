@@ -7,8 +7,8 @@ Maven Archetype 开发
 
 说白了Archetype封装了一个项目的地基，框架师在里面集成了公司公共的开发组件和中间件，让业务开发人员更快更高效的开发业务逻辑。
 
-[阿里云脚手架] [1]  
-[Spring 官方脚手架] [2]
+[阿里云脚手架]
+[Spring 官方脚手架]
 
 ### 介绍Archetype
 [官方文档]
@@ -37,7 +37,7 @@ mvn archetype:generate
 
 
 
- [1]: https://start.aliyun.com/bootstrap.html
- [2]: https://start.spring.io/
+ [阿里云脚手架]: https://start.aliyun.com/bootstrap.html
+ [Spring 官方脚手架]: https://start.spring.io/
  [官方文档]: https://maven.apache.org/archetype/index.html
  [官方介绍]: https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
