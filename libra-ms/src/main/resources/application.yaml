@@ -1,0 +1,7 @@
+spring:
+  messages:
+    encoding: UTF-8
+  application:
+    name: libra-ms
+server:
+  port: 9080
