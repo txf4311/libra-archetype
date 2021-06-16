@@ -11,7 +11,7 @@ Maven Archetype 开发
 [Spring 官方脚手架] [2]
 
 ### 介绍Archetype
-[官方文档] [3]
+[官方文档]
 
 Archetype是一个Maven项目的模板工具包，它定义了一类项目的基本架构。Archetype为开发人员提供了创建Maven项目的模板，
 同时它也可以根据已有的Maven项目生成参数化的模板。通过Archetype，开发人员可以很方便地将一类项目的最佳实现应用到自己的项目中。
@@ -33,11 +33,11 @@ mvn archetype:generate
 * 完成以上操作就自动生成了一个项目骨架。
 
 ### Archetype开发
-[官方介绍] [4]  
+[官方介绍] 
 
 
 
  [1]: https://start.aliyun.com/bootstrap.html
  [2]: https://start.spring.io/
- [3]: https://maven.apache.org/archetype/index.html
- [4]: https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
+ [官方文档]: https://maven.apache.org/archetype/index.html
+ [官方介绍]: https://maven.apache.org/archetype/maven-archetype-plugin/advanced-usage.html
